@@ -3,15 +3,15 @@ import java.util.Map;
 
 class RoomInventory {
 
-    private HashMap<String, Integer> inventory;
+    private Map<String, Integer> inventory;
 
     public RoomInventory() {
 
         inventory = new HashMap<>();
 
-        inventory.put("Single Room", 5);
-        inventory.put("Double Room", 3);
-        inventory.put("Suite Room", 2);
+        inventory.put("Single", 5);
+        inventory.put("Double", 3);
+        inventory.put("Suite", 2);
     }
 
     public int getAvailability(String roomType) {
