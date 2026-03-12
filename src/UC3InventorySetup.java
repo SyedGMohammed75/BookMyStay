@@ -1,10 +1,4 @@
-/**
- * Book My Stay App
- * Demonstrates centralized room inventory using HashMap.
- *
- * @version 3.1
- */
-public class UCg3InventorySetup {
+    public class UC3InventorySetup {
 
     public static void main(String[] args) {
 
