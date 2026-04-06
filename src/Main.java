@@ -24,5 +24,6 @@ public class Main {
         System.out.println("\nSuite Room:");
         suite.display();
         System.out.println("Available: " + suiteAvailable);
+
     }
 }
